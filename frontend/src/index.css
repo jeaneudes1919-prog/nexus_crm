@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Un fond légèrement gris pour éviter le blanc hôpital qui fait "site amateur" */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
